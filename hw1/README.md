@@ -2,11 +2,11 @@
 
 - NameNode
 
-    ![NameNode](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/NN.png)
+    ![NameNode](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/images/NN.png)
 
 - ResourceManager
 
-    ![ResourceManager](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/RM.png)
+    ![ResourceManager](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/images/RM.png)
 
 ## Блок 2. Работа с HDFS
 
