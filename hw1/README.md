@@ -1,7 +1,12 @@
 ## Блок 1. Развертывание локального кластера Hadoop
 
 - NameNode
+
+    ![NameNode](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/NN.png)
+
 - ResourceManager
+
+    ![ResourceManager](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/RM.png)
 
 ## Блок 2. Работа с HDFS
 
@@ -19,7 +24,7 @@
 
     Папка .Trash в домашнем каталоге пользователя, в которую временно помещаются удаленные файлы.
 
-        hdfs dfs -mkdir -p /newfolder/subfolder
+        hdfs dfs -rm -r -skipTrash /newfolder/subfolder
 
 4. [2 балла] Создайте пустой файл в подпапке из пункта 2.
 
@@ -66,7 +71,7 @@
 
         WARNING: the waiting time may be long for DECREASING the number of replications.
 
-### “hdfs fsck”
+### Команда “hdfs fsck”
 
 3. [4 баллов] Найдите  информацию по файлу, блокам и их расположениям с помощью “hdfs fsck”
 
