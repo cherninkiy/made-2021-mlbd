@@ -146,13 +146,13 @@
 
 ## Блок 3. Работа с HDFS
 
-- mapper.py - выводит в stdout тройку (key, price, price**2), где key  - используется для распределения данных по редьюсерам
+- [mapper.py](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/app/mapper.py) - выводит в stdout тройку (key, price, price**2), где key  - используется для распределения данных по редьюсерам
 
         key = num_line % num_reducers
         
-- reducer.py - считает среднее и дисперсию для своего входного потока данных (сплита)
+- [reducer.py](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/app/reducer.py) - считает среднее и дисперсию для своего входного потока данных (сплита)
 
-- collector.py - считает среднее и дисперсию по всем сплитам (по извествным формулам)
+- [collector.py](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw1/app/collector.py) - считает среднее и дисперсию по всем сплитам (по извествным формулам)
 
         root@02dd61a87b2c:/app# ./run.sh                      
         packageJobJar: [/tmp/hadoop-unjar8928419900424367720/] [] /tmp/streamjob8235711970311130848.jar tmpDir=null
