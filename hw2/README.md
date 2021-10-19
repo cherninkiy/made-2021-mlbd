@@ -1,9 +1,10 @@
 ## Блок 1. Развертывание локального Hive
 
-Запуск ![docker-compose](https://github.com/cherninkiy/made-2021-mlbd/blob/hw2/hw2/docker-compose.yml):
+Запуск кластера:
     
     docker-compose up
 
+- ![docker-compose](https://github.com/cherninkiy/made-2021-mlbd/blob/hw2/hw2/docker-compose.yml)
 
 - Hadoop
 
