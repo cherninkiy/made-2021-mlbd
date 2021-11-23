@@ -23,4 +23,4 @@ Car Price Prediction ![link](https://www.kaggle.com/hellbuoy/car-price-predictio
 
 ### Visualization:
 
-![linreg](https://github.com/cherninkiy/made-2021-mlbd/blob/hw3/hw3/linreg.png)
+![linreg](https://github.com/cherninkiy/made-2021-mlbd/blob/main/hw3/linreg.png)
